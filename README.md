@@ -4,9 +4,11 @@ alongside ACC as the features for a machine learning algorithm. Based on these f
 use RFE for feature reduction and then use SVM techniques to predict a new multi-epitope
 vaccine sequence. I use the NegativeB.txt, NegativeT.txt, PositiveB.txt, and PositiveT.txt as my
 input files.
+
 References:
 I referenced https://github.com/zikunyang/DCVST, which contains the code used for the original
 study and some important .txt files that I use.
+
 Assumptions:
 Many key assumptions were made in this program. First, for each individual sequence, I set the
 max amino acid length as 10, since SVMs must work with constant fixed-length vectors.
@@ -20,10 +22,12 @@ For predicting a new vaccine, I used the remaining sequences that were not used 
 training each of the models.
 The new vaccine takes the top 10 epitopes from each of B-cell, HTL, and CTL epitopes (that
 were not used as part of training).
+
 I/O:
 The final constructed vaccine is both outputted to the terminal and outputted to a separate
 constructed_vaccine_sequence.txt file. The feature selections and results (including accuracies)
 for the B-cell, CTL, and HTL epitopes are all outputted to the terminal.
+
 Results:
 While the performance of the CTL epitope model was great and the HTL epitope model was
 acceptable, the B-cell epitope model was not as strong, despite me giving it a greater
