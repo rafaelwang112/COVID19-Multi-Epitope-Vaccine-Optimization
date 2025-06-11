@@ -1,5 +1,4 @@
 Program Summary:
-
 In this program (main.py), I use numerical descriptions based on biochemical properties
 alongside ACC as the features for a machine learning algorithm. Based on these features, I then
 use RFE for feature reduction and then use SVM techniques to predict a new multi-epitope
@@ -7,12 +6,10 @@ vaccine sequence. I use the NegativeB.txt, NegativeT.txt, PositiveB.txt, and Pos
 input files.
 
 References:
-
 I referenced https://github.com/zikunyang/DCVST, which contains the code used for the original
 study and some important .txt files that I use.
 
 Assumptions:
-
 Many key assumptions were made in this program. First, for each individual sequence, I set the
 max amino acid length as 10, since SVMs must work with constant fixed-length vectors.
 Secondly, I randomly imported 180 positive B-cell epitopes and 180 negative B-cell epitopes to
@@ -27,13 +24,11 @@ The new vaccine takes the top 10 epitopes from each of B-cell, HTL, and CTL epit
 were not used as part of training).
 
 I/O:
-
 The final constructed vaccine is both outputted to the terminal and outputted to a separate
 constructed_vaccine_sequence.txt file. The feature selections and results (including accuracies)
 for the B-cell, CTL, and HTL epitopes are all outputted to the terminal.
 
 Results:
-
 While the performance of the CTL epitope model was great and the HTL epitope model was
 acceptable, the B-cell epitope model was not as strong, despite me giving it a greater
 num_to_choose (of 180) as opposed to the 150 for the T-cells. I also tried making other
