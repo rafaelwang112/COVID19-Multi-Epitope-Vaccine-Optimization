@@ -1,4 +1,4 @@
-#COVID-19 Multi-Epitope Vaccine Optimization
+# COVID-19 Multi-Epitope Vaccine Optimization
 Machine learning pipeline to predict optimal vaccine sequence. 
 
 ## Program Summary
