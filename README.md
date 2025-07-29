@@ -1,13 +1,8 @@
 Program Summary:
-In this program (main.py), I use numerical descriptions based on biochemical properties
-alongside ACC as the features for a machine learning algorithm. Based on these features, I then
-use RFE for feature reduction and then use SVM techniques to predict a new multi-epitope
-vaccine sequence. I use the NegativeB.txt, NegativeT.txt, PositiveB.txt, and PositiveT.txt as my
-input files.
-
-References:
-I referenced https://github.com/zikunyang/DCVST, which contains the code used for the original
-study and some important .txt files that I use.
+I use numerical descriptions based on biochemical properties alongside ACC as the features for a 
+machine learning algorithm. Based on these features, I then use RFE for feature reduction and then 
+use SVM techniques to predict a new multi-epitope vaccine sequence. I use the NegativeB.txt, 
+NegativeT.txt, PositiveB.txt, and PositiveT.txt as my input files.
 
 Assumptions:
 Many key assumptions were made in this program. First, for each individual sequence, I set the
