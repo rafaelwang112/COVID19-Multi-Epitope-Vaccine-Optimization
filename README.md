@@ -1,3 +1,6 @@
+#COVID-19 Multi-Epitope Vaccine Optimization
+Machine learning pipeline to predict optimal vaccine sequence. 
+
 ## Program Summary
 I use numerical descriptions based on biochemical properties alongside ACC as the features for a 
 machine learning algorithm. Based on these features, I then use RFE for feature reduction and then 
